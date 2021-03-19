@@ -31,8 +31,8 @@ print('\n')
 print(f'3. Write a Python program to assign a number to a and b and print the result of sum, subtraction, multiplication, division')
 a = round(float(input("Enter the 1th number: ")), 2)
 b = round(float(input("Enter the 1th number: ")), 2)
-sum = a + b
-subtraction = a - b
+sum = round((a + b), 2)
+subtraction = round((a - b), 2)
 multiplication = round(a * b, 2)
 division = round(a / b, 2)
 print(f'Sum {a} + {b} = {sum}\nSubstraction {a} - {b} = {subtraction}\n'
