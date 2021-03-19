@@ -49,8 +49,8 @@ b = str(input('Enter the string: '))
 print(f'4.1. Type a: "{type(a)}\n'
       f'Type b: {type(b)}"')
 # 2
-multiplication = a * b
-print(f'4.2. Multiplication: int {a} * str {b} = str {multiplication}')
+multiplication = a * int(b)
+print(f'4.2. Multiplication: {a} * {b} converted to integers = {multiplication}')
 # 3
 a = str(a)
 print(f'4.3. Type a: "{type(a)}')
