@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../:\Everything\IT\Testing\Automation_08_09_2019\qa_automat_python_est\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
