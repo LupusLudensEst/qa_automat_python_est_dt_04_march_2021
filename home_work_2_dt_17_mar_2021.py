@@ -13,13 +13,33 @@ and print the result of the multiplication. Also, print change both to string an
 print(f'Homework_2, Week 2, 17 March 2021.\n1. Write a Python program to print a specified list after removing the 0th, 4th, and 5th elements.')
 list_1 = [1, 2, 3, 4, 'String', [5, 6, 7, 8], 'Alfa', 'Beta']
 print(f'List_1 before removing: {list_1}')
-del list_1[0]
-print(f'List_1 after removing 0th element: {list_1}')
-del list_1[4]
-print(f'List_1 after removing 4th element: {list_1}')
 del list_1[5]
 print(f'List_1 after removing 5th element: {list_1}')
-print('\n')
+del list_1[4]
+print(f'List_1 after removing 4th element: {list_1}')
+del list_1[0]
+print(f'List_1 after removing 0th element: {list_1}')
+# 1.2
+# list_1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# enumerated_list_1 = list(enumerate(list_1))
+# print(enumerated_list_1)
+# indexes_to_remove = [0, 4, 5]
+# list_1 = [value for index, value in enumerate(list_1) if index not in indexes_to_remove]
+# print(list_1)
+# 1.3
+# 1. Write a Python program to print a specified list after removing the 0th, 4th, and 5th elements.
+# def delete_multiple_elements(list_object, indexes):
+#     indexes = sorted(indexes, reverse=True)
+#     for idx in indexes:
+#         if idx < len(list_object):
+#             list_object.pop(idx)
+# list_1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# enumerated_list_1 = list(enumerate(list_1))
+# list_of_indices = [0, 4, 5]
+# # Remove elements from list_of_num at index 0, 4 and 5
+# delete_multiple_elements(list_1, list_of_indices)
+# print(f'{enumerated_list_1}\n{list_1}')
+# print('\n')
 
 print(f'2. Write a Python program to generate and print a list except for the first 5 elements')
 list_2 = [1, 2, 3, 4, 'String', [5, 6, 7, 8], 'Alfa', 'Beta']
@@ -49,8 +69,8 @@ b = str(input('Enter the string: '))
 print(f'4.1. Type a: "{type(a)}\n'
       f'Type b: {type(b)}"')
 # 2
-multiplication = a * int(b)
-print(f'4.2. Multiplication: {a} * {b} converted to integers = {multiplication}')
+multiplication = a * b
+print(f'4.2. Multiplication: {a} * {b} = {multiplication}')
 # 3
 a = str(a)
 print(f'4.3. Type a: "{type(a)}')
