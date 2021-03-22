@@ -39,7 +39,7 @@ print(f'List_1 after removing 0th element: {list_1}')
 # # Remove elements from list_of_num at index 0, 4 and 5
 # delete_multiple_elements(list_1, list_of_indices)
 # print(f'{enumerated_list_1}\n{list_1}')
-# print('\n')
+print('\n')
 
 print(f'2. Write a Python program to generate and print a list except for the first 5 elements')
 list_2 = [1, 2, 3, 4, 'String', [5, 6, 7, 8], 'Alfa', 'Beta']
