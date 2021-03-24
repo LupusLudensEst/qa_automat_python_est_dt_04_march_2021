@@ -106,19 +106,15 @@ class ClassName:
         self.initials = initials
 
     def print_first_name(self):
-        # return self.first_name
         print(f'First name: {first_name}')
 
     def print_last_name(self):
-        # return self.last_name
         print(f'Last name: {last_name}')
 
     def print_full_name(self):
-        # return self.full_name
         print(f'Full name: {full_name}')
 
     def print_initials(self):
-        # return self.initials
         print(f'Initials: {initials}')
 
 first_name = str(input("Enter the first name: "))
