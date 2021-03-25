@@ -50,6 +50,7 @@ dctnry = { 'a': 'b', 'c': 'd' }
 def ky_vl_invrtd(dctnry):
     result = dict([(vl, ky) for ky, vl in dctnry.items()])
     return result
+
 print(f"Input dictionary: {dctnry};\nOutput dictionary: {ky_vl_invrtd(dctnry)}")
 
 
@@ -63,6 +64,7 @@ object_name.attribute_for_first_name => 'John'
 object_name.attribute_for_initials => 'J.D.'
 object_name.print_full_name() => 'John Doe'
 """)
+
 class Client:
     """
     Documentation for ClassName
