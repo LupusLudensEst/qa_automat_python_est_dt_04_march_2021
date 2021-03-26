@@ -15,7 +15,6 @@ print(f'List_1 after removing 0th element: {list_1}')
 # list_1 = [value for index, value in enumerate(list_1) if index not in indexes_to_remove]
 # print(list_1)
 # 1.3
-# 1. Write a Python program to print a specified list after removing the 0th, 4th, and 5th elements.
 # def delete_multiple_elements(list_object, indexes):
 #     indexes = sorted(indexes, reverse=True)
 #     for idx in indexes:
